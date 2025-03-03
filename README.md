@@ -31,5 +31,8 @@ Ten adres wraz z wskazanymi web server routes posłużył do utworzenie rquest U
 Przy tworzeniu bota po stronie slacka posłużono się dokumntacją:
 https://rasa.com/docs/rasa/connectors/slack/
 
+Wynik:
+![Alt text](relative%20path/to/img.jpg?raw=true "Zrzut ekranu 2025-03-03 190519.png")
+
 Dodatkowa opinia autora:
 Znacznie łatwiej jest stworzyć integrację z Slack niż Webex
