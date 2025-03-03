@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - check_opening_hours
+  - show_menu
+  - send_message
+
+actions:
+  - action_check_opening_hours
+  - action_show_menu
+  - action_send_slack_message
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_check_opening_hours:
+    - text: "Sure, let me check the opening hours for you."
+  
+  utter_show_menu:
+    - text: "Here’s the menu."
+
+  utter_message_sent:
+    - text: "Message has been sent to Slack."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
