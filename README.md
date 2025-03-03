@@ -32,7 +32,8 @@ Przy tworzeniu bota po stronie slacka posłużono się dokumntacją:
 https://rasa.com/docs/rasa/connectors/slack/
 
 Wynik:
-![Alt text](relative%20path/to/img.jpg?raw=true "Zrzut ekranu 2025-03-03 190519.png")
+![Zrzut ekranu 2025-03-03 190519](https://github.com/user-attachments/assets/e84fb545-8c44-4ad0-b344-42381e34bf7c)
 
 Dodatkowa opinia autora:
 Znacznie łatwiej jest stworzyć integrację z Slack niż Webex
+
